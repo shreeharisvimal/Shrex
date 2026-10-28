@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- ULTIMATE FOCUS ICON - PROFESSIONAL DESIGN -->
+    
+    <!-- Background Circle with Gradient -->
+    <path
+        android:pathData="M54,4 C82,4 104,26 104,54 C104,82 82,104 54,104 C26,104 4,82 4,54 C4,26 26,4 54,4 Z"
+        android:fillColor="#FF1A1A2E" />
+    
+    <!-- Inner Circle -->
+    <path
+        android:pathData="M54,8 C78,8 98,28 98,52 C98,76 78,96 54,96 C30,96 10,76 10,52 C10,28 30,8 54,8 Z"
+        android:fillColor="#FF16213E" />
+    
+    <!-- Main Focus Symbol - Professional Design -->
+    <path
+        android:pathData="M54,20 C65,20 74,29 74,40 C74,45 72,49 69,52 C72,55 74,59 74,64 C74,75 65,84 54,84 C43,84 34,75 34,64 C34,59 36,55 39,52 C36,49 34,45 34,40 C34,29 43,20 54,20 Z"
+        android:fillColor="#FF6B73FF" />
+    
+    <!-- Focus Center Dot -->
+    <path
+        android:pathData="M54,45 C58,45 61,48 61,52 C61,56 58,59 54,59 C50,59 47,56 47,52 C47,48 50,45 54,45 Z"
+        android:fillColor="#FFFFFFFF" />
+    
+    <!-- Professional Accent Lines -->
+    <path
+        android:pathData="M20,30 L30,30 M78,30 L88,30 M20,78 L30,78 M78,78 L88,78"
+        android:strokeColor="#FF6B73FF"
+        android:strokeWidth="2"
+        android:strokeLineCap="round" />
+    
+    <!-- Corner Accents -->
+    <path
+        android:pathData="M15,15 L20,15 L15,20 Z"
+        android:fillColor="#FF4A9EFF" />
+    <path
+        android:pathData="M88,15 L93,15 L93,20 Z"
+        android:fillColor="#FF4A9EFF" />
+    <path
+        android:pathData="M15,88 L20,93 L15,93 Z"
+        android:fillColor="#FF4A9EFF" />
+    <path
+        android:pathData="M88,88 L93,88 L93,93 Z"
+        android:fillColor="#FF4A9EFF" />
+    
+    <!-- Professional Glow Effect -->
+    <path
+        android:pathData="M54,12 C70,12 82,24 82,40 C82,50 78,59 72,65 C76,69 78,74 78,80 C78,84 76,88 72,88 C68,88 66,84 66,80 C66,76 64,72 60,68 C56,72 54,76 54,80 C54,84 52,88 48,88 C44,88 42,84 42,80 C42,76 40,72 36,68 C32,72 30,76 30,80 C30,84 28,88 24,88 C20,88 18,84 18,80 C18,74 20,69 24,65 C18,59 14,50 14,40 C14,24 26,12 42,12 Z"
+        android:fillColor="#00FFFFFF"
+        android:strokeColor="#FF6B73FF"
+        android:strokeWidth="1" />
+    
+</vector>

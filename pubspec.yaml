@@ -1,0 +1,84 @@
+name: shrex
+description: A focus app that locks your phone for productive sessions
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+  flutter: ">=3.16.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # State Management
+  flutter_riverpod: ^3.0.3
+  hooks_riverpod: ^3.0.3
+  flutter_hooks: ^0.21.3+1
+  
+  # Database
+  sqflite: ^2.3.0
+  path: ^1.9.0
+  path_provider: ^2.1.4
+  
+  # Storage
+  shared_preferences: ^2.3.3
+  
+  # Firebase
+  firebase_core: ^4.2.0
+  cloud_firestore: ^6.0.3
+  firebase_auth: ^6.1.1
+  google_sign_in: ^7.2.0
+  
+  # Audio
+  just_audio: ^0.10.5
+  
+  # Notifications - simplified implementation (no plugin)
+  timezone: ^0.10.1
+  
+  # UI Components
+  fl_chart: ^1.1.1
+  confetti: ^0.8.0
+  lottie: ^3.3.2
+  
+  # Permissions
+  permission_handler: ^12.0.1
+  
+  # Network
+  http: ^1.2.2
+  
+  # File sharing
+  share_plus: ^12.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.3
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/audio/
+    - assets/animations/
+    - assets/images/
+  
+  # fonts:
+  #   - family: Inter
+  #     fonts:
+  #       - asset: assets/fonts/Inter-Regular.ttf
+  #       - asset: assets/fonts/Inter-Medium.ttf
+  #         weight: 500
+  #       - asset: assets/fonts/Inter-SemiBold.ttf
+  #         weight: 600
+  #       - asset: assets/fonts/Inter-Bold.ttf
+  #         weight: 700
+
+# App icon configuration
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/app_logo.svg"
+  min_sdk_android: 21
+  adaptive_icon_background: "#0A0A0A"
+  adaptive_icon_foreground: "assets/images/app_logo.svg"

@@ -1,0 +1,17 @@
+# Simple app icon description for Shrex Focus
+# This describes the launcher icon design
+
+App Icon Design:
+- Background: Purple gradient (#6366F1)
+- Foreground: White brain/psychology icon
+- Style: Modern, clean, professional
+- Represents: Focus, concentration, mental clarity
+
+The icon shows:
+1. A stylized brain outline in white
+2. Focus lines representing concentration
+3. Small dots representing mental activity
+4. Clean, minimalist design
+5. High contrast for visibility
+
+This creates a professional app icon that clearly represents the focus/concentration theme of the Shrex app.
